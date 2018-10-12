@@ -17,4 +17,8 @@ public class MathOpertions {
     public static double divide(int a, int b){
         return (double) a/b;
     }
+
+    public static double root(int a, int b){
+        return Math.pow(a,1.0/b);
+    }
 }
