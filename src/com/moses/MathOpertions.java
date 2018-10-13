@@ -18,6 +18,10 @@ public class MathOpertions {
         return (double) a/b;
     }
 
+    public static double root(int a, int b){
+        return Math.pow(a,1.0/b);
+    }
+
     public static long power(int a, int b){
         return (long) Math.pow(a,b);
     }
