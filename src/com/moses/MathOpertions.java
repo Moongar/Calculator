@@ -29,4 +29,8 @@ public class MathOpertions {
     public static double logarithm(int a,int b){
         return Math.log10(a)/Math.log10(b);
     }
+
+    public static int mod(int a,int b){
+        return a%b;
+    }
 }

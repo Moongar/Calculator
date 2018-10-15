@@ -13,5 +13,6 @@ public class Main {
         System.out.println(a+" / "+b+" = "+MathOpertions.divide(a,b));
         System.out.println(a+" ^ "+b+" = "+MathOpertions.power(a,b));
         System.out.println("log("+a+") base "+b+" = "+MathOpertions.logarithm(a,b));
+        System.out.println(a+" mod "+b+" = "+MathOpertions.mod(a,b));
     }
 }
